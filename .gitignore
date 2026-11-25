@@ -1,0 +1,26 @@
+# Secrets & credentials
+.env
+*.env
+profiles.yml
+.user.yml
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+
+# Generated caches, logs, and dbt build artifacts
+*.parquet
+logs/
+airflow/logs/
+zomato/logs/
+zomato/target/
+zomato/dbt_packages/
+data/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
